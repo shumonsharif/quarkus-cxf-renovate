@@ -1,14 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base", ":rebaseStalePrs"
+    "config:base", ":rebaseStalePrs", ":enableVulnerabilityAlertsWithLabel('security')"
   ],
   "packageRules": [
     {
-      "excludePackagePrefixes": ["io.quarkiverse.cxf"]
+      "excludePackagePatterns": ["^io.quarkiverse.cxf"]
     }
-  ],
-  "vulnerabilityAlerts": {
-    "labels": ["security"]
-  }
+  ]
 }
