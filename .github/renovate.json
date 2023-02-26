@@ -5,7 +5,7 @@
   ],
   "packageRules": [
     {
-      "excludePackagePatterns": ["^io.quarkiverse.cxf"]
+      "excludeDepPatterns": ["^io.quarkiverse.cxf"]
     }
   ]
 }
