@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base", ":rebaseStalePrs", ":enableVulnerabilityAlertsWithLabel('security')"
+    "config:base", ":dependencyDashboard", ":rebaseStalePrs", ":enableVulnerabilityAlertsWithLabel('security')"
   ],
   "packageRules": [
     {
