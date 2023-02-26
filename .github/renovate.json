@@ -5,7 +5,8 @@
   ],
   "packageRules": [
     {
-      "excludeDepPatterns": ["^io.quarkiverse.cxf"]
+      "matchPackagePatterns": ["io.quarkiverse.cxf"],
+      "enabled": false
     }
   ]
 }
