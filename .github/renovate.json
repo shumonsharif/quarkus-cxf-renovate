@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base", ":rebaseStalePrs"
+  ],
+  "packageRules": [
+    {
+      "excludePackagePrefixes": ["io.quarkiverse.cxf"]
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  }
+}
