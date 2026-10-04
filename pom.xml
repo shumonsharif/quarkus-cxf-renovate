@@ -57,7 +57,7 @@
         <jakarta.jws-api.version>3.0.0</jakarta.jws-api.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.jakarta.jwsapi.version -->
         <jakarta.xml.soap-api.version>2.0.1</jakarta.xml.soap-api.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.jakarta.soapapi.version -->
         <jakarta.xml.ws-api.version>3.0.1</jakarta.xml.ws-api.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.jakarta.wsapi.version -->
-        <neethi.version>3.2.0</neethi.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.neethi.version -->
+        <neethi.version>3.2.4</neethi.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.neethi.version -->
         <mimepull.version>1.9.14</mimepull.version>
         <saaj-impl.version>2.0.1</saaj-impl.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.saaj-impl.version -->
         <slf4j.version>1.7.36</slf4j.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.slf4j:slf4j-api -->
